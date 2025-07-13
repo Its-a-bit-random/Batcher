@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Getting Started
-      link: /markdown-examples
+      link: /Tutorial/Why
     - theme: alt
       text: API
-      link: /api-examples
+      link: /API/Batcher
 
 features:
   - title: Lightweight

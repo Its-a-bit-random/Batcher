@@ -9,16 +9,23 @@ export default defineConfig({
 		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: "Home", link: "/" },
-			{ text: "Examples", link: "/markdown-examples" },
+			{ text: "Getting Started", link: "/Tutorial/Installing" },
+			{ text: "API", link: "/API/Batcher" },
 		],
 
 		sidebar: [
 			{
-				text: "Examples",
+				text: "Tutorial",
+				collapsed: false,
 				items: [
-					{ text: "Markdown Examples", link: "/markdown-examples" },
-					{ text: "Runtime API Examples", link: "/api-examples" },
+					{ text: "Why batcher?", link: "/Tutorial/Why" },
+					{ text: "Installing", link: "/Tutorial/Installing" },
 				],
+			},
+			{
+				text: "API",
+				collapsed: false,
+				items: [{ text: "Batcher", link: "/API/Batcher" }],
 			},
 		],
 
